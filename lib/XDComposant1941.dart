@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:adobe_xd/pinned.dart';
 
 class XDComposant1941 extends StatelessWidget {
   XDComposant1941({
@@ -9,9 +8,9 @@ class XDComposant1941 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Pinned.fromPins(
-          Pin(start: 0.0, end: 0.0),
-          Pin(start: 0.0, end: 0.0),
+        SizedBox(
+          width: 147.0,
+          height: 18.0,
           child: Text(
             'Recettes du monde',
             style: TextStyle(

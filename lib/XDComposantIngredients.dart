@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:adobe_xd/pinned.dart';
 
 class XDComposantIngredients extends StatelessWidget {
   XDComposantIngredients({
@@ -9,9 +8,9 @@ class XDComposantIngredients extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Pinned.fromPins(
-          Pin(start: 0.0, end: 0.0),
-          Pin(size: 18.0, start: 0.0),
+        SizedBox(
+          width: 88.0,
+          height: 18.0,
           child: Text(
             'Ingredients',
             style: TextStyle(
@@ -27,10 +26,11 @@ class XDComposantIngredients extends StatelessWidget {
             textAlign: TextAlign.left,
           ),
         ),
-        Pinned.fromPins(
-          Pin(size: 47.0, start: 0.0),
-          Pin(size: 5.0, end: 0.0),
+        Transform.translate(
+          offset: Offset(0.0, 27.0),
           child: Container(
+            width: 47.0,
+            height: 5.0,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(3.0),
               color: const Color(0xff009fe3),

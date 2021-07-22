@@ -10,6 +10,7 @@ import './XDComposant1791.dart';
 import './XDComposant1801.dart';
 import './XDCreer_Sa_Recette.dart';
 import './XDComposant1811.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class XDMenu extends StatelessWidget {
   XDMenu({
@@ -34,15 +35,40 @@ class XDMenu extends StatelessWidget {
               ),
             ),
           ),
-          Container(),
           Pinned.fromPins(
-            Pin(size: 262.0, start: 0.0),
+            Pin(size: 24.0, end: 30.0),
+            Pin(size: 24.0, start: 20.0),
+            child:
+                // Adobe XD layer: 'Boundary' (shape)
+                Container(
+              decoration: BoxDecoration(),
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 14.0, end: 35.0),
+            Pin(size: 14.0, start: 25.0),
+            child:
+                // Adobe XD layer: ' ↳Color' (shape)
+                PageLink(
+              links: [
+                PageLinkInfo(
+                  duration: 0.3,
+                  pageBuilder: () => XDHomeCB(),
+                ),
+              ],
+              child: SvgPicture.string(
+                _svg_1xiznk,
+                allowDrawingOutsideViewBox: true,
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 262.0, start: -2.0),
             Pin(size: 24.0, middle: 0.3484),
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  transition: LinkTransition.Fade,
-                  ease: Curves.easeInOut,
                   duration: 0.3,
                   pageBuilder: () => XDMenu1(),
                 ),
@@ -51,12 +77,11 @@ class XDMenu extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 165.0, middle: 0.4619),
+            Pin(size: 166.0, middle: 0.4593),
             Pin(size: 24.0, middle: 0.4121),
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  ease: Curves.easeInOut,
                   duration: 0.3,
                   pageBuilder: () => XDMenu2(),
                 ),
@@ -75,7 +100,6 @@ class XDMenu extends StatelessWidget {
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  ease: Curves.easeInOut,
                   duration: 0.3,
                   pageBuilder: () => XDCreer_Sa_Recette(),
                 ),
@@ -84,7 +108,7 @@ class XDMenu extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 143.0, middle: 0.4181),
+            Pin(size: 143.0, middle: 0.4138),
             Pin(size: 18.0, middle: 0.6025),
             child: XDComposant1811(),
           ),
@@ -93,3 +117,6 @@ class XDMenu extends StatelessWidget {
     );
   }
 }
+
+const String _svg_1xiznk =
+    '<svg viewBox="326.0 25.0 14.0 14.0" ><path transform="translate(326.0, 25.0)" d="M 14 1.409999966621399 L 12.59000015258789 0 L 7 5.590000152587891 L 1.409999966621399 0 L 0 1.409999966621399 L 5.590000152587891 7 L 0 12.59000015258789 L 1.409999966621399 14 L 7 8.409999847412109 L 12.59000015258789 14 L 14 12.59000015258789 L 8.409999847412109 7 L 14 1.409999966621399 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="butt" /></svg>';

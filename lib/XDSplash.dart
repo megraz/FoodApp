@@ -75,7 +75,7 @@ class XDSplash extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 96.0, middle: 0.5046),
+                    Pin(size: 98.0, middle: 0.5046),
                     Pin(size: 21.0, middle: 0.5143),
                     child: Text(
                       'S\'inscrire',
@@ -127,49 +127,45 @@ class XDSplash extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 252.0, middle: 0.5041),
-            Pin(size: 89.0, middle: 0.4862),
-            child:
-                // Adobe XD layer: 'Title' (group)
-                Stack(
-              children: <Widget>[
-                Pinned.fromPins(
-                  Pin(start: 0.0, end: 0.0),
-                  Pin(size: 49.0, start: 0.0),
-                  child: Text(
-                    'COOKBOOK ',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
-                      fontSize: 40,
-                      color: const Color(0xffffffff),
-                      letterSpacing: -0.32,
-                      fontWeight: FontWeight.w700,
-                      height: 1.2,
-                    ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    textAlign: TextAlign.center,
-                  ),
+          Transform.translate(
+            offset: Offset(62.0, 281.0),
+            child: SizedBox(
+              width: 252.0,
+              height: 49.0,
+              child: Text(
+                'COOKBOOK ',
+                style: TextStyle(
+                  fontFamily: 'Montserrat',
+                  fontSize: 40,
+                  color: const Color(0xffffffff),
+                  letterSpacing: -0.32,
+                  fontWeight: FontWeight.w700,
+                  height: 1.2,
                 ),
-                Pinned.fromPins(
-                  Pin(size: 102.0, middle: 0.5),
-                  Pin(size: 32.0, end: 0.0),
-                  child: Text(
-                    'by Hardis',
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
-                      fontSize: 24,
-                      color: const Color(0xffffffff),
-                      fontWeight: FontWeight.w500,
-                      height: 0.75,
-                    ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    textAlign: TextAlign.center,
-                  ),
+                textHeightBehavior:
+                    TextHeightBehavior(applyHeightToFirstAscent: false),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(137.0, 338.0),
+            child: SizedBox(
+              width: 102.0,
+              height: 32.0,
+              child: Text(
+                'by Hardis',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 24,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w500,
+                  height: 0.75,
                 ),
-              ],
+                textHeightBehavior:
+                    TextHeightBehavior(applyHeightToFirstAscent: false),
+                textAlign: TextAlign.center,
+              ),
             ),
           ),
         ],

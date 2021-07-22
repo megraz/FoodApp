@@ -63,10 +63,10 @@ class XDRecetteV2Page extends StatelessWidget {
                   ),
                 ),
                 Pinned.fromPins(
-                  Pin(size: 78.0, start: 0.0),
+                  Pin(size: 90.0, start: 0.0),
                   Pin(size: 18.0, middle: 0.3253),
                   child: Text(
-                    'Directions',
+                    'Préparation',
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 14,

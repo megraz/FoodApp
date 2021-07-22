@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:foodapp/XDSplash.dart';
+import 'XDSplash.dart';
+//import 'package:foodapp/XDSplash.dart';
+//Add import package from Splash page
+import 'package:adobe_xd/pinned.dart';
+import './XDInscription.dart';
+import 'package:adobe_xd/page_link.dart';
+import './XDConnexion.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'FoodApp',
       theme: ThemeData(
         // This is the theme of your application.
         //

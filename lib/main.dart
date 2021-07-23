@@ -6,6 +6,8 @@ import 'package:adobe_xd/pinned.dart';
 import './XDInscription.dart';
 import 'package:adobe_xd/page_link.dart';
 import './XDConnexion.dart';
+//import google font package
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
@@ -102,6 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'You have pushed the button this many times:',
+              style: GoogleFonts
+                  .montserrat(), //addition of this line to have the google font typeface style and its import
             ),
             Text(
               '$_counter',

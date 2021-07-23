@@ -3,6 +3,8 @@ import 'package:adobe_xd/pinned.dart';
 import './XDInscription.dart';
 import 'package:adobe_xd/page_link.dart';
 import './XDConnexion.dart';
+//import google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDSplash extends StatelessWidget {
   XDSplash({
@@ -79,8 +81,9 @@ class XDSplash extends StatelessWidget {
                     Pin(size: 21.0, middle: 0.5143),
                     child: Text(
                       'S\'inscrire',
-                      style: TextStyle(
-                        fontFamily: 'Roboto Mono',
+                      style: GoogleFonts.robotoMono(
+                        //style: TextStyle(
+                        //fontFamily: 'Roboto Mono',
                         fontSize: 16,
                         color: const Color(0xffffffff),
                       ),
@@ -112,8 +115,9 @@ class XDSplash extends StatelessWidget {
                     Pin(start: 0.0, end: 0.0),
                     child: Text(
                       'Se connecter',
-                      style: TextStyle(
-                        fontFamily: 'Roboto',
+                      style: GoogleFonts.roboto(
+                        //style: TextStyle(
+                        //fontFamily: 'Roboto',
                         fontSize: 16,
                         color: const Color(0xffffffff),
                         height: 1.125,
@@ -134,8 +138,9 @@ class XDSplash extends StatelessWidget {
               height: 49.0,
               child: Text(
                 'COOKBOOK ',
-                style: TextStyle(
-                  fontFamily: 'Montserrat',
+                style: GoogleFonts.montserrat(
+                  //style: TextStyle(
+                  //fontFamily: 'Montserrat',
                   fontSize: 40,
                   color: const Color(0xffffffff),
                   letterSpacing: -0.32,
@@ -155,8 +160,9 @@ class XDSplash extends StatelessWidget {
               height: 32.0,
               child: Text(
                 'by Hardis',
-                style: TextStyle(
-                  fontFamily: 'Roboto',
+                style: GoogleFonts.roboto(
+                  //style: TextStyle(
+                  //fontFamily: 'Roboto',
                   fontSize: 24,
                   color: const Color(0xffffffff),
                   fontWeight: FontWeight.w500,

@@ -5,6 +5,8 @@ import './XDRecette1.dart';
 import 'package:adobe_xd/page_link.dart';
 import './XDMenu.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+//add google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDHomeCB extends StatelessWidget {
   XDHomeCB({
@@ -49,8 +51,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text(
                                   'A propos',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 12,
                                     color: const Color(0xff303030),
                                   ),
@@ -65,8 +68,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text.rich(
                                   TextSpan(
-                                    style: TextStyle(
-                                      fontFamily: 'Montserrat',
+                                    style: GoogleFonts.montserrat(
+                                      //style: TextStyle(
+                                      //fontFamily: 'Montserrat',
                                       fontSize: 12,
                                       color: const Color(0xff303030),
                                     ),
@@ -92,8 +96,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text(
                                   'Mentions légales',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 12,
                                     color: const Color(0xff303030),
                                   ),
@@ -108,8 +113,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text(
                                   'Charte de confidentialité',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 12,
                                     color: const Color(0xff303030),
                                   ),
@@ -124,8 +130,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text(
                                   'Préférences cookies',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 12,
                                     color: const Color(0xff303030),
                                   ),
@@ -140,8 +147,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text(
                                   'CGU',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 12,
                                     color: const Color(0xff303030),
                                   ),
@@ -156,8 +164,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 18.0,
                                 child: Text(
                                   'CPU',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 12,
                                     color: const Color(0xff303030),
                                   ),
@@ -200,8 +209,9 @@ class XDHomeCB extends StatelessWidget {
                               offset: Offset(35.1, 9.7),
                               child: Text(
                                 'Rechercher une recette',
-                                style: TextStyle(
-                                  fontFamily: 'Roboto',
+                                style: GoogleFonts.roboto(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Roboto',
                                   fontSize: 11,
                                   color: const Color(0xffa7a7a7),
                                   height: 4.181818181818182,
@@ -306,8 +316,9 @@ class XDHomeCB extends StatelessWidget {
                         height: 22.0,
                         child: Text(
                           'Dernières recettes',
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
+                          style: GoogleFonts.montserrat(
+                            //style: TextStyle(
+                            //fontFamily: 'Montserrat',
                             fontSize: 18,
                             color: const Color(0xff1f222b),
                             fontWeight: FontWeight.w700,
@@ -326,8 +337,9 @@ class XDHomeCB extends StatelessWidget {
                         height: 18.0,
                         child: Text(
                           'Voir tout',
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
+                          style: GoogleFonts.montserrat(
+                            //style: TextStyle(
+                            //fontFamily: 'Montserrat',
                             fontSize: 14,
                             color: const Color(0xff009fe3),
                             fontWeight: FontWeight.w500,
@@ -343,8 +355,9 @@ class XDHomeCB extends StatelessWidget {
                         height: 22.0,
                         child: Text(
                           'Inspirations',
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
+                          style: GoogleFonts.montserrat(
+                            //style: TextStyle(
+                            //fontFamily: 'Montserrat',
                             fontSize: 18,
                             color: const Color(0xff1f222b),
                             fontWeight: FontWeight.w700,
@@ -363,8 +376,9 @@ class XDHomeCB extends StatelessWidget {
                         height: 18.0,
                         child: Text(
                           'Voir tout',
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
+                          style: GoogleFonts.montserrat(
+                            //style: TextStyle(
+                            //fontFamily: 'Montserrat',
                             fontSize: 14,
                             color: const Color(0xff009fe3),
                             fontWeight: FontWeight.w500,
@@ -400,8 +414,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 36.0,
                                 child: Text(
                                   'Pain perdu aux\nfruits',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 14,
                                     color: const Color(0xff303030),
                                   ),
@@ -527,8 +542,9 @@ class XDHomeCB extends StatelessWidget {
                               offset: Offset(15.0, 109.0),
                               child: Text(
                                 'Dessert',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 8,
                                   color: const Color(0xff009fe3),
                                   fontWeight: FontWeight.w500,
@@ -618,8 +634,9 @@ class XDHomeCB extends StatelessWidget {
                                   height: 36.0,
                                   child: Text(
                                     'Bo Bun (Vietnam)',
-                                    style: TextStyle(
-                                      fontFamily: 'Montserrat',
+                                    style: GoogleFonts.montserrat(
+                                      //style: TextStyle(
+                                      //fontFamily: 'Montserrat',
                                       fontSize: 14,
                                       color: const Color(0xff303030),
                                     ),
@@ -747,8 +764,9 @@ class XDHomeCB extends StatelessWidget {
                                 offset: Offset(15.0, 109.0),
                                 child: Text(
                                   'Plat',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 8,
                                     color: const Color(0xff009fe3),
                                     fontWeight: FontWeight.w500,
@@ -864,8 +882,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 36.0,
                                 child: Text(
                                   'Cheesecake',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 14,
                                     color: const Color(0xff303030),
                                   ),
@@ -877,8 +896,9 @@ class XDHomeCB extends StatelessWidget {
                               offset: Offset(129.0, 11.0),
                               child: Text(
                                 'Dessert',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 8,
                                   color: const Color(0xff009fe3),
                                   fontWeight: FontWeight.w500,
@@ -991,8 +1011,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 36.0,
                                 child: Text(
                                   'Bœuf sauté aux trois légumes',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 14,
                                     color: const Color(0xff303030),
                                   ),
@@ -1004,8 +1025,9 @@ class XDHomeCB extends StatelessWidget {
                               offset: Offset(129.0, 11.0),
                               child: Text(
                                 'Plat',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 8,
                                   color: const Color(0xff009fe3),
                                   fontWeight: FontWeight.w500,
@@ -1118,8 +1140,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 36.0,
                                 child: Text(
                                   'Risotto aux crevettes',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 14,
                                     color: const Color(0xff303030),
                                   ),
@@ -1131,8 +1154,9 @@ class XDHomeCB extends StatelessWidget {
                               offset: Offset(129.0, 11.0),
                               child: Text(
                                 'Plat',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 8,
                                   color: const Color(0xff009fe3),
                                   fontWeight: FontWeight.w500,
@@ -1245,8 +1269,9 @@ class XDHomeCB extends StatelessWidget {
                                 height: 36.0,
                                 child: Text(
                                   'Soufflé au fromage',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 14,
                                     color: const Color(0xff303030),
                                   ),
@@ -1258,8 +1283,9 @@ class XDHomeCB extends StatelessWidget {
                               offset: Offset(129.0, 11.0),
                               child: Text(
                                 'Entrée',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 8,
                                   color: const Color(0xff009fe3),
                                   fontWeight: FontWeight.w500,
@@ -1416,8 +1442,9 @@ class XDHomeCB extends StatelessWidget {
                   Pin(size: 24.0, middle: 0.5),
                   child: Text(
                     'COOKBOOK ',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
+                    style: GoogleFonts.montserrat(
+                      //style: TextStyle(
+                      //fontFamily: 'Montserrat',
                       fontSize: 20,
                       color: const Color(0xff009fe3),
                       letterSpacing: -0.16,

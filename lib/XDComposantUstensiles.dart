@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+//add google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDComposantUstensiles extends StatelessWidget {
   XDComposantUstensiles({
@@ -14,8 +16,9 @@ class XDComposantUstensiles extends StatelessWidget {
           Pin(size: 18.0, start: 0.0),
           child: Text(
             'Ustensiles',
-            style: TextStyle(
-              fontFamily: 'Montserrat',
+            style: GoogleFonts.montserrat(
+              //style: TextStyle(
+              //fontFamily: 'Montserrat',
               fontSize: 14,
               color: const Color(0xffb2b7c6),
               letterSpacing: 0.28,

@@ -5,6 +5,8 @@ import 'package:adobe_xd/page_link.dart';
 import './XDHomeCB.dart';
 import './XDLightSelectionControls1CheckboxesBDeselected5States.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+//import google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDInscription extends StatelessWidget {
   XDInscription({
@@ -39,8 +41,9 @@ class XDInscription extends StatelessWidget {
                               height: 49.0,
                               child: Text(
                                 'COOKBOOK ',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 40,
                                   color: const Color(0xff009fe3),
                                   letterSpacing: -0.32,
@@ -58,8 +61,9 @@ class XDInscription extends StatelessWidget {
                                 width: 114.0,
                                 child: Text(
                                   'by Hardis',
-                                  style: TextStyle(
-                                    fontFamily: 'Roboto',
+                                  style: GoogleFonts.roboto(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Roboto',
                                     fontSize: 24,
                                     color: const Color(0xff009fe3),
                                     fontWeight: FontWeight.w500,
@@ -82,8 +86,9 @@ class XDInscription extends StatelessWidget {
                         height: 32.0,
                         child: Text(
                           'Inscription',
-                          style: TextStyle(
-                            fontFamily: 'Roboto',
+                          style: GoogleFonts.roboto(
+                            //style: TextStyle(
+                            //fontFamily: 'Roboto',
                             fontSize: 24,
                             color: const Color(0xff303030),
                             fontWeight: FontWeight.w700,
@@ -106,8 +111,9 @@ class XDInscription extends StatelessWidget {
                               offset: Offset(22.0, 0.0),
                               child: Text(
                                 'Adresse email',
-                                style: TextStyle(
-                                  fontFamily: 'Roboto',
+                                style: GoogleFonts.roboto(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Roboto',
                                   fontSize: 14,
                                   color: const Color(0xff303030),
                                   fontWeight: FontWeight.w700,
@@ -142,8 +148,9 @@ class XDInscription extends StatelessWidget {
                                         height: 18.0,
                                         child: Text(
                                           'john@cookbook.com',
-                                          style: TextStyle(
-                                            fontFamily: 'Open Sans',
+                                          style: GoogleFonts.openSans(
+                                            //style: TextStyle(
+                                            //fontFamily: 'Open Sans',
                                             fontSize: 13,
                                             color: const Color(0xff8c98a9),
                                             fontWeight: FontWeight.w600,
@@ -176,8 +183,9 @@ class XDInscription extends StatelessWidget {
                               offset: Offset(22.0, 0.0),
                               child: Text(
                                 'Nom d\'utilisateur *',
-                                style: TextStyle(
-                                  fontFamily: 'Roboto',
+                                style: GoogleFonts.roboto(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Roboto',
                                   fontSize: 14,
                                   color: const Color(0xff303030),
                                   fontWeight: FontWeight.w700,
@@ -212,8 +220,9 @@ class XDInscription extends StatelessWidget {
                                         height: 18.0,
                                         child: Text(
                                           'John',
-                                          style: TextStyle(
-                                            fontFamily: 'Open Sans',
+                                          style: GoogleFonts.openSans(
+                                            //style: TextStyle(
+                                            //fontFamily: 'Open Sans',
                                             fontSize: 13,
                                             color: const Color(0xff8c98a9),
                                             fontWeight: FontWeight.w600,
@@ -246,8 +255,9 @@ class XDInscription extends StatelessWidget {
                               offset: Offset(22.0, 0.0),
                               child: Text(
                                 'Mot de passe',
-                                style: TextStyle(
-                                  fontFamily: 'Roboto',
+                                style: GoogleFonts.roboto(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Roboto',
                                   fontSize: 14,
                                   color: const Color(0xff303030),
                                   fontWeight: FontWeight.w700,
@@ -282,8 +292,9 @@ class XDInscription extends StatelessWidget {
                                         height: 18.0,
                                         child: Text(
                                           'Doit contenir au moins 8 caractères',
-                                          style: TextStyle(
-                                            fontFamily: 'Open Sans',
+                                          style: GoogleFonts.openSans(
+                                            //style: TextStyle(
+                                            //fontFamily: 'Open Sans',
                                             fontSize: 13,
                                             color: const Color(0xff8c98a9),
                                             fontWeight: FontWeight.w600,
@@ -316,8 +327,9 @@ class XDInscription extends StatelessWidget {
                               offset: Offset(22.0, 0.0),
                               child: Text(
                                 'Confirmation du mot de passe',
-                                style: TextStyle(
-                                  fontFamily: 'Roboto',
+                                style: GoogleFonts.roboto(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Roboto',
                                   fontSize: 14,
                                   color: const Color(0xff303030),
                                   fontWeight: FontWeight.w700,
@@ -352,8 +364,9 @@ class XDInscription extends StatelessWidget {
                                         height: 18.0,
                                         child: Text(
                                           'Confirmation du mot de passe',
-                                          style: TextStyle(
-                                            fontFamily: 'Open Sans',
+                                          style: GoogleFonts.openSans(
+                                            //style: TextStyle(
+                                            //fontFamily: 'Open Sans',
                                             fontSize: 13,
                                             color: const Color(0xff8c98a9),
                                             fontWeight: FontWeight.w600,
@@ -382,8 +395,9 @@ class XDInscription extends StatelessWidget {
                         height: 15.0,
                         child: Text(
                           'Votre mot de passe doit remplir les critères suivants:',
-                          style: TextStyle(
-                            fontFamily: 'Roboto',
+                          style: GoogleFonts.roboto(
+                            //style: TextStyle(
+                            //fontFamily: 'Roboto',
                             fontSize: 11,
                             color: const Color(0xff303030),
                             fontWeight: FontWeight.w700,
@@ -399,8 +413,9 @@ class XDInscription extends StatelessWidget {
                         height: 41.0,
                         child: Text(
                           'J\'ai lu et j\'accepte les conditions d\'utilisation de Cookbook (CGU et CPU).',
-                          style: TextStyle(
-                            fontFamily: 'Roboto',
+                          style: GoogleFonts.roboto(
+                            //style: TextStyle(
+                            //fontFamily: 'Roboto',
                             fontSize: 15,
                             color: const Color(0xff303030),
                           ),
@@ -415,8 +430,9 @@ class XDInscription extends StatelessWidget {
                         height: 75.0,
                         child: Text.rich(
                           TextSpan(
-                            style: TextStyle(
-                              fontFamily: 'Roboto',
+                            style: GoogleFonts.roboto(
+                              //style: TextStyle(
+                              //fontFamily: 'Roboto',
                               fontSize: 11,
                               color: const Color(0xff303030),
                             ),
@@ -449,8 +465,9 @@ class XDInscription extends StatelessWidget {
                           height: 19.0,
                           child: Text.rich(
                             TextSpan(
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
+                              style: GoogleFonts.roboto(
+                                //style: TextStyle(
+                                //fontFamily: 'Roboto',
                                 fontSize: 14,
                                 color: const Color(0xff8c98a9),
                               ),
@@ -491,8 +508,9 @@ class XDInscription extends StatelessWidget {
                         height: 56.0,
                         child: Text(
                           'Bienvenue sur Cookbook! Créer votre compte et accédez à tous nos services ',
-                          style: TextStyle(
-                            fontFamily: 'Roboto',
+                          style: GoogleFonts.roboto(
+                            //style: TextStyle(
+                            //fontFamily: 'Roboto',
                             fontSize: 15,
                             color: const Color(0xff303030),
                             height: 2.1333333333333333,
@@ -535,8 +553,9 @@ class XDInscription extends StatelessWidget {
                                   width: 128.0,
                                   child: Text(
                                     'Je m\'inscris',
-                                    style: TextStyle(
-                                      fontFamily: 'Roboto Mono',
+                                    style: GoogleFonts.robotoMono(
+                                      //style: TextStyle(
+                                      //fontFamily: 'Roboto Mono',
                                       fontSize: 16,
                                       color: const Color(0xffffffff),
                                     ),
@@ -579,8 +598,9 @@ class XDInscription extends StatelessWidget {
                                           // Adobe XD layer: 'Login with Facebook' (text)
                                           Text(
                                         'S\'inscrire avec Facebook',
-                                        style: TextStyle(
-                                          fontFamily: 'Roboto Mono',
+                                        style: GoogleFonts.robotoMono(
+                                          //style: TextStyle(
+                                          //fontFamily: 'Roboto Mono',
                                           fontSize: 14,
                                           color: const Color(0xffffffff),
                                           letterSpacing: 0.28,
@@ -618,8 +638,9 @@ class XDInscription extends StatelessWidget {
                         height: 19.0,
                         child: Text(
                           'ou',
-                          style: TextStyle(
-                            fontFamily: 'Roboto',
+                          style: GoogleFonts.roboto(
+                            //style: TextStyle(
+                            //fontFamily: 'Roboto',
                             fontSize: 14,
                             color: const Color(0xff303030),
                             fontWeight: FontWeight.w700,

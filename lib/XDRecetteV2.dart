@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import './XDRecetteV2Page.dart';
+import 'package:adobe_xd/page_link.dart';
 import 'package:adobe_xd/pinned.dart';
 import './XDiconactionfavorite_24px.dart';
 import './XDComposantIngredients.dart';
 import './XDComposantUstensiles.dart';
-import './XDMenu.dart';
-import 'package:adobe_xd/page_link.dart';
+import './XDMenu_bis.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+//add google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDRecetteV2 extends StatelessWidget {
   XDRecetteV2({
@@ -18,10 +21,10 @@ class XDRecetteV2 extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Transform.translate(
-            offset: Offset(0.0, 6.4),
+            offset: Offset(0.0, 83.6),
             child: SizedBox(
               width: 375.0,
-              height: 661.0,
+              height: 595.0,
               child: SingleChildScrollView(
                 child: SizedBox(
                   width: 375.0,
@@ -30,27 +33,37 @@ class XDRecetteV2 extends StatelessWidget {
                     children: <Widget>[
                       Transform.translate(
                         offset: Offset(0.0, 845.6),
-                        child: Container(
-                          width: 375.0,
-                          height: 353.0,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.only(
-                              topLeft: Radius.circular(45.0),
-                              topRight: Radius.circular(45.0),
+                        child: PageLink(
+                          links: [
+                            PageLinkInfo(
+                              transition: LinkTransition.SlideUp,
+                              ease: Curves.easeInOutExpo,
+                              duration: 0.3,
+                              pageBuilder: () => XDRecetteV2Page(),
                             ),
-                            color: const Color(0xffffffff),
-                            boxShadow: [
-                              BoxShadow(
-                                color: const Color(0x29000000),
-                                offset: Offset(0, 2),
-                                blurRadius: 6,
+                          ],
+                          child: Container(
+                            width: 375.0,
+                            height: 353.0,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(45.0),
+                                topRight: Radius.circular(45.0),
                               ),
-                            ],
+                              color: const Color(0xffffffff),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: const Color(0x29000000),
+                                  offset: Offset(0, 2),
+                                  blurRadius: 6,
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
                       Transform.translate(
-                        offset: Offset(137.5, 865.6),
+                        offset: Offset(137.5, 836.6),
                         child: SizedBox(
                           width: 100.0,
                           height: 1.0,
@@ -71,8 +84,9 @@ class XDRecetteV2 extends StatelessWidget {
                             children: <Widget>[
                               Text(
                                 'Préparation',
-                                style: TextStyle(
-                                  fontFamily: 'Montserrat',
+                                style: GoogleFonts.montserrat(
+                                  //style: TextStyle(
+                                  //fontFamily: 'Montserrat',
                                   fontSize: 14,
                                   color: const Color(0xff009fe3),
                                   letterSpacing: 0.28,
@@ -277,8 +291,9 @@ class XDRecetteV2 extends StatelessWidget {
                           height: 21.0,
                           child: Text(
                             'Bo bun (Vietnam)',
-                            style: TextStyle(
-                              fontFamily: 'Abril Fatface',
+                            style: GoogleFonts.abrilFatface(
+                              //style: TextStyle(
+                              //fontFamily: 'Abril Fatface',
                               fontSize: 18,
                               color: const Color(0xff1f222b),
                               height: 1.5555555555555556,
@@ -322,8 +337,9 @@ class XDRecetteV2 extends StatelessWidget {
                           height: 15.0,
                           child: Text(
                             'Plat',
-                            style: TextStyle(
-                              fontFamily: 'Montserrat',
+                            style: GoogleFonts.montserrat(
+                              //style: TextStyle(
+                              //fontFamily: 'Montserrat',
                               fontSize: 12,
                               color: const Color(0xff009fe3),
                               fontWeight: FontWeight.w500,
@@ -672,8 +688,9 @@ class XDRecetteV2 extends StatelessWidget {
                                 offset: Offset(17.0, 1.6),
                                 child: Text.rich(
                                   TextSpan(
-                                    style: TextStyle(
-                                      fontFamily: 'Montserrat',
+                                    style: GoogleFonts.montserrat(
+                                      //style: TextStyle(
+                                      //fontFamily: 'Montserrat',
                                       fontSize: 12,
                                       color: const Color(0xff009fe3),
                                     ),
@@ -743,7 +760,7 @@ class XDRecetteV2 extends StatelessWidget {
                       Transform.translate(
                         offset: Offset(30.8, 388.6),
                         child: SizedBox(
-                          width: 65.0,
+                          width: 76.0,
                           height: 18.0,
                           child:
                               // Adobe XD layer: 'Temps' (group)
@@ -752,7 +769,7 @@ class XDRecetteV2 extends StatelessWidget {
                               Transform.translate(
                                 offset: Offset(29.0, 2.0),
                                 child: SizedBox(
-                                  width: 36.0,
+                                  width: 47.0,
                                   height: 14.0,
                                   child: Text.rich(
                                     TextSpan(
@@ -803,14 +820,14 @@ class XDRecetteV2 extends StatelessWidget {
                       ),
                       Pinned.fromPins(
                         Pin(size: 88.0, middle: 0.216),
-                        Pin(size: 32.0, middle: 0.6786),
+                        Pin(size: 32.0, middle: 0.7572),
                         child:
                             // Adobe XD layer: 'ComposantIngredients' (component)
                             XDComposantIngredients(),
                       ),
                       Pinned.fromPins(
                         Pin(size: 78.0, middle: 0.7946),
-                        Pin(size: 18.0, middle: 0.667),
+                        Pin(size: 18.0, middle: 0.7423),
                         child:
                             // Adobe XD layer: 'ComposantUstensiles' (component)
                             XDComposantUstensiles(),
@@ -1111,8 +1128,9 @@ class XDRecetteV2 extends StatelessWidget {
                                 offset: Offset(49.0, 11.0),
                                 child: Text(
                                   'Je note !',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
+                                  style: GoogleFonts.montserrat(
+                                    //style: TextStyle(
+                                    //fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     color: const Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
@@ -1538,7 +1556,7 @@ class XDRecetteV2 extends StatelessWidget {
                         transition: LinkTransition.Fade,
                         ease: Curves.easeIn,
                         duration: 0.4,
-                        pageBuilder: () => XDMenu(),
+                        pageBuilder: () => XDMenu_bis(),
                       ),
                     ],
                     child: Stack(
@@ -1588,8 +1606,9 @@ class XDRecetteV2 extends StatelessWidget {
                   Pin(size: 24.0, middle: 0.5),
                   child: Text(
                     'COOKBOOK ',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
+                    style: GoogleFonts.montserrat(
+                      //style: TextStyle(
+                      //fontFamily: 'Montserrat',
                       fontSize: 20,
                       color: const Color(0xff009fe3),
                       letterSpacing: -0.16,

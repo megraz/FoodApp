@@ -4,6 +4,8 @@ import './XDInscription.dart';
 import 'package:adobe_xd/page_link.dart';
 import './XDHomeCB.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+//import google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDConnexion extends StatelessWidget {
   XDConnexion({
@@ -27,8 +29,9 @@ class XDConnexion extends StatelessWidget {
                   Pin(size: 49.0, start: 0.0),
                   child: Text(
                     'COOKBOOK ',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
+                    style: GoogleFonts.montserrat(
+                      //style: TextStyle(
+                      //fontFamily: 'Montserrat',
                       fontSize: 40,
                       color: const Color(0xff009fe3),
                       letterSpacing: -0.32,
@@ -45,8 +48,9 @@ class XDConnexion extends StatelessWidget {
                   Pin(size: 32.0, end: 0.0),
                   child: Text(
                     'by Hardis',
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
+                    style: GoogleFonts.roboto(
+                      //style: TextStyle(
+                      //fontFamily: 'Roboto',
                       fontSize: 24,
                       color: const Color(0xff009fe3),
                       fontWeight: FontWeight.w500,
@@ -70,8 +74,9 @@ class XDConnexion extends StatelessWidget {
                   Pin(size: 19.0, start: 0.0),
                   child: Text(
                     'Adresse email',
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
+                    style: GoogleFonts.roboto(
+                      //style: TextStyle(
+                      //fontFamily: 'Roboto',
                       fontSize: 14,
                       color: const Color(0xff303030),
                       fontWeight: FontWeight.w700,
@@ -103,8 +108,9 @@ class XDConnexion extends StatelessWidget {
                         Pin(size: 18.0, middle: 0.5),
                         child: Text(
                           'johncookbook.com',
-                          style: TextStyle(
-                            fontFamily: 'Open Sans',
+                          style: GoogleFonts.openSans(
+                            //style: TextStyle(
+                            //fontFamily: 'Open Sans',
                             fontSize: 13,
                             color: const Color(0xff8c98a9),
                             fontWeight: FontWeight.w600,
@@ -131,8 +137,9 @@ class XDConnexion extends StatelessWidget {
                   Pin(size: 19.0, start: 0.0),
                   child: Text(
                     'Mot de passe',
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
+                    style: GoogleFonts.roboto(
+                      //style: TextStyle(
+                      //fontFamily: 'Roboto',
                       fontSize: 14,
                       color: const Color(0xff303030),
                       fontWeight: FontWeight.w700,
@@ -269,8 +276,9 @@ class XDConnexion extends StatelessWidget {
             Pin(size: 19.0, middle: 0.7469),
             child: Text(
               'Mot de passe oublié ?',
-              style: TextStyle(
-                fontFamily: 'Roboto',
+              style: GoogleFonts.roboto(
+                //style: TextStyle(
+                //fontFamily: 'Roboto',
                 fontSize: 14,
                 color: const Color(0xff303030),
                 fontWeight: FontWeight.w700,
@@ -292,8 +300,9 @@ class XDConnexion extends StatelessWidget {
               ],
               child: Text.rich(
                 TextSpan(
-                  style: TextStyle(
-                    fontFamily: 'Roboto',
+                  style: GoogleFonts.roboto(
+                    //style: TextStyle(
+                    //fontFamily: 'Roboto',
                     fontSize: 14,
                     color: const Color(0xff8c98a9),
                   ),
@@ -331,8 +340,9 @@ class XDConnexion extends StatelessWidget {
             Pin(size: 32.0, middle: 0.2913),
             child: Text(
               'Connexion',
-              style: TextStyle(
-                fontFamily: 'Roboto',
+              style: GoogleFonts.roboto(
+                //style: TextStyle(
+                //fontFamily: 'Roboto',
                 fontSize: 24,
                 color: const Color(0xff303030),
                 fontWeight: FontWeight.w700,
@@ -374,8 +384,9 @@ class XDConnexion extends StatelessWidget {
                     Pin(size: 21.0, middle: 0.5143),
                     child: Text(
                       'Se connecter',
-                      style: TextStyle(
-                        fontFamily: 'Roboto Mono',
+                      style: GoogleFonts.robotoMono(
+                        //style: TextStyle(
+                        //fontFamily: 'Roboto Mono',
                         fontSize: 16,
                         color: const Color(0xffffffff),
                       ),
@@ -416,8 +427,9 @@ class XDConnexion extends StatelessWidget {
                             // Adobe XD layer: 'Login with Facebook' (text)
                             Text(
                           'Se connecter avec Facebook',
-                          style: TextStyle(
-                            fontFamily: 'Roboto Mono',
+                          style: GoogleFonts.robotoMono(
+                            //style: TextStyle(
+                            //fontFamily: 'Roboto Mono',
                             fontSize: 14,
                             color: const Color(0xffffffff),
                             letterSpacing: 0.28,
@@ -451,8 +463,9 @@ class XDConnexion extends StatelessWidget {
             Pin(size: 19.0, middle: 0.4614),
             child: Text(
               'ou',
-              style: TextStyle(
-                fontFamily: 'Roboto',
+              style: GoogleFonts.roboto(
+                //style: TextStyle(
+                //fontFamily: 'Roboto',
                 fontSize: 14,
                 color: const Color(0xff303030),
                 fontWeight: FontWeight.w700,

@@ -4,6 +4,8 @@ import 'package:adobe_xd/pinned.dart';
 import './XDMenu.dart';
 import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+//add google font package
+import 'package:google_fonts/google_fonts.dart';
 
 class XDCreer_Sa_Recette extends StatelessWidget {
   XDCreer_Sa_Recette({
@@ -31,8 +33,9 @@ class XDCreer_Sa_Recette extends StatelessWidget {
                         height: 22.0,
                         child: Text(
                           'Créer sa recette',
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
+                          style: GoogleFonts.montserrat(
+                            //style: TextStyle(
+                            //fontFamily: 'Montserrat',
                             fontSize: 18,
                             color: const Color(0xff1f222b),
                             fontWeight: FontWeight.w700,
@@ -1024,8 +1027,9 @@ class XDCreer_Sa_Recette extends StatelessWidget {
                                   width: 76.0,
                                   child: Text(
                                     'Valider',
-                                    style: TextStyle(
-                                      fontFamily: 'Roboto Mono',
+                                    style: GoogleFonts.robotoMono(
+                                      //style: TextStyle(
+                                      //fontFamily: 'Roboto Mono',
                                       fontSize: 16,
                                       color: const Color(0xffffffff),
                                     ),
@@ -1060,8 +1064,9 @@ class XDCreer_Sa_Recette extends StatelessWidget {
                                   width: 76.0,
                                   child: Text(
                                     'Annuler',
-                                    style: TextStyle(
-                                      fontFamily: 'Roboto Mono',
+                                    style: GoogleFonts.robotoMono(
+                                      //style: TextStyle(
+                                      //fontFamily: 'Roboto Mono',
                                       fontSize: 16,
                                       color: const Color(0xffffffff),
                                     ),
@@ -1176,8 +1181,9 @@ class XDCreer_Sa_Recette extends StatelessWidget {
                   Pin(size: 24.0, middle: 0.5),
                   child: Text(
                     'COOKBOOK ',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
+                    style: GoogleFonts.montserrat(
+                      //style: TextStyle(
+                      //fontFamily: 'Montserrat',
                       fontSize: 20,
                       color: const Color(0xff009fe3),
                       letterSpacing: -0.16,

@@ -10,6 +10,7 @@ import './XDHomeCB.dart';
 import './XDComposant1861.dart';
 import './XDComposant1871.dart';
 import './XDiconnavigationchevron_right_24px.dart';
+import './XDMenu_bis.dart';
 import './XDComposant1881.dart';
 import './XDComposant1891.dart';
 import './XDComposant1901.dart';
@@ -115,36 +116,44 @@ class XDMenu_bis1 extends StatelessWidget {
             child: SizedBox(
               width: 107.0,
               height: 24.0,
-              child: Stack(
-                children: <Widget>[
-                  Transform.translate(
-                    offset: Offset(29.0, 3.0),
-                    child: SizedBox(
-                      width: 78.0,
-                      height: 18.0,
-                      child: Text(
-                        'RECETTES',
-                        style: TextStyle(
-                          fontFamily: 'Proxima Nova',
-                          fontSize: 16,
-                          color: const Color(0xff009fe3),
-                          fontWeight: FontWeight.w700,
-                        ),
-                        textAlign: TextAlign.left,
-                      ),
-                    ),
-                  ),
-                  Pinned.fromPins(
-                    Pin(size: 24.0, start: 0.0),
-                    Pin(start: 0.0, end: 0.0),
-                    child: Transform.rotate(
-                      angle: 3.1416,
-                      child:
-                          // Adobe XD layer: 'icon/navigation/che…' (component)
-                          XDiconnavigationchevron_right_24px(),
-                    ),
+              child: PageLink(
+                links: [
+                  PageLinkInfo(
+                    duration: 0.3,
+                    pageBuilder: () => XDMenu_bis(),
                   ),
                 ],
+                child: Stack(
+                  children: <Widget>[
+                    Transform.translate(
+                      offset: Offset(29.0, 3.0),
+                      child: SizedBox(
+                        width: 78.0,
+                        height: 18.0,
+                        child: Text(
+                          'RECETTES',
+                          style: TextStyle(
+                            fontFamily: 'Proxima Nova',
+                            fontSize: 16,
+                            color: const Color(0xff009fe3),
+                            fontWeight: FontWeight.w700,
+                          ),
+                          textAlign: TextAlign.left,
+                        ),
+                      ),
+                    ),
+                    Pinned.fromPins(
+                      Pin(size: 24.0, start: 0.0),
+                      Pin(start: 0.0, end: 0.0),
+                      child: Transform.rotate(
+                        angle: 3.1416,
+                        child:
+                            // Adobe XD layer: 'icon/navigation/che…' (component)
+                            XDiconnavigationchevron_right_24px(),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),

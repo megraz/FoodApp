@@ -64,7 +64,7 @@ class XDMenu extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 262.0, start: -2.0),
+            Pin(size: 260.0, start: 0.0),
             Pin(size: 24.0, middle: 0.3484),
             child: PageLink(
               links: [

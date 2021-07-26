@@ -89,7 +89,16 @@ class XDMenu1 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 37.0, middle: 0.3284),
             Pin(size: 18.0, middle: 0.3192),
-            child: XDComposant1851(),
+            child: PageLink(
+              links: [
+                PageLinkInfo(
+                  ease: Curves.easeIn,
+                  duration: 0.3,
+                  pageBuilder: () => XDHomeCB(),
+                ),
+              ],
+              child: XDComposant1851(),
+            ),
           ),
           Pinned.fromPins(
             Pin(size: 65.0, middle: 0.3581),

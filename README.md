@@ -26,16 +26,16 @@ and on each page of the project
 Then, replace the default TexStyle with :
 
 Text(
-  'This is Google Fonts',
-  style: GoogleFonts.lato(),
-),
+  <br/>'This is Google Fonts',
+  <br/>style: GoogleFonts.lato(),
+<br/>),
 
 example :
-Text(
-                      'S\'inscrire',
-                      style: GoogleFonts.robotoMono(
-                        //style: TextStyle(
-                        //fontFamily: 'Roboto Mono',
-                        fontSize: 16,
-                        color: const Color(0xffffffff),
-                      ),
+<br/>Text(
+<br/>'S\'inscrire',
+<br/>style: GoogleFonts.robotoMono(
+<br/>//style: TextStyle(
+<br/>//fontFamily: 'Roboto Mono',
+<br/>fontSize: 16,
+<br/>color: const Color(0xffffffff),
+<br/>),
